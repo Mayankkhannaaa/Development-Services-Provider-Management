@@ -44,7 +44,7 @@ module.exports = {
       //heading: ["Urbanist"],
       //heading: ["Nunito"],
       //heading: ["Catamaran"],
-      heading: ["Arimo"],
+      heading: ["Didact Gothic"],
       nav: ["Libre Franklin"],
       inter: ["Inter"],
       mont: ["Montserrat"],
