@@ -13,6 +13,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+::selection {
+  background: #f81ce5; /* WebKit/Blink Browsers */
+}
+
 a {
   color: inherit;
   text-decoration: none;

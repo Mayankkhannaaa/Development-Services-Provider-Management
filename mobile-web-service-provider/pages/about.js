@@ -31,7 +31,7 @@ const About = () => {
   return (
     <section className="overflow-hidden">
       <Head>
-        <title>PROPARA | About</title>
+        <title>A-ONE WEB SOLUTIONS | About</title>
         <meta name="description" content={``} />
         <meta
           name="keywords"
