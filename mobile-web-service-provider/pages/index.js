@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   return (
-    <div className="sm:container xs:mx-7 sm:mx-auto">
+    <div className="">
       <div
         className="xs:right-2 sm:right-20 cursor-pointer fixed z-50 bg-blue-400 rounded-full drop-shadow-lg flex justify-center items-center text-white"
         onClick={scrollDown}
@@ -398,7 +398,7 @@ export default function Home() {
                 <p className="md:text-2xl xs:text-md">✉️</p>
               </div>
               <a
-                className="xs:my-2 md:my-7 color-gray-2 md:text-2xl xs:pl-3 md:pl-7 xs:text-md hover:text-blue-500 hover:underline"
+                className="xs:my-2 md:my-7 cursor-pointer color-gray-2 md:text-2xl xs:pl-3 md:pl-7 xs:text-md hover:text-blue-500 hover:underline"
                 target="_blank"
                 onClick={(e) => {
                   e.preventDefault();
@@ -419,7 +419,7 @@ export default function Home() {
                 </p>
               </div>
               <a
-                className="xs:my-2 md:my-7 color-gray-2 md:text-2xl xs:pl-3 md:pl-7 xs:text-md hover:text-blue-500 hover:underline"
+                className="xs:my-2 md:my-7 cursor-pointer color-gray-2 md:text-2xl xs:pl-3 md:pl-7 xs:text-md hover:text-blue-500 hover:underline"
                 target="_blank"
                 href="https://wa.me/9313790181"
                 rel="noopener noreferrer"
