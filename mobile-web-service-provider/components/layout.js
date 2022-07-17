@@ -4,12 +4,6 @@ import { useEffect, useState } from "react";
 import img1 from "../public/Assets/A-One Web Solutions-logos_white.png";
 
 export default function Layout({ children }) {
-  const [windowWidth, setWindowWidth] = useState(160);
-
-  useEffect(() => {
-    setWindowWidth(window.innerWidth);
-  }, []);
-
   const router = useRouter();
   return (
     <>
@@ -55,13 +49,17 @@ export default function Layout({ children }) {
               <div className="flex flex-wrap xs:flex-col xs:items-center sm:items-start">
                 <a
                   className="font-medium items-center md:justify-start justify-center text-gray-50 hover:text-blue-500 hover:underline"
-                  href="http://localhost:3000/about"
+                  onClick={() => {
+                    router.push("/about");
+                  }}
                 >
                   <span className="text-xl">About Us</span>
                 </a>
                 <a
                   className="font-medium text-gray-50 tracking-widest text-xl mb-3 hover:text-blue-500 hover:underline"
-                  href="http://localhost:3000/contact"
+                  onClick={() => {
+                    router.push("/contact");
+                  }}
                 >
                   Contact Us
                 </a>
