@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   return (
-    <div className="">
+    <div className="xs:mx-7 sm:mx-auto sm:container">
       <div
         className="xs:right-2 sm:right-20 cursor-pointer fixed z-50 bg-blue-400 rounded-full drop-shadow-lg flex justify-center items-center text-white"
         onClick={scrollDown}

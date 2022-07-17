@@ -13,8 +13,8 @@ export default function Layout({ children }) {
   const router = useRouter();
   return (
     <>
-      <div className="sm:container xs:mx-7 sm:mx-auto text-white ">
-        <header className="mt-5 mb-10">
+      <div className=" text-white">
+        <header className=" xs:mx-7 sm:mx-auto sm:container mt-5 mb-10">
           <div
             className="mx-auto"
             style={{

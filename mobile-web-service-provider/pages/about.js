@@ -120,7 +120,7 @@ const About = () => {
         />
         <meta name="author" content={"PROPARA - Professional Paradise"} />
       </Head>
-      <div className="px-5 pt-5 pb-16 mx-auto">
+      <div className="container px-5 pt-5 pb-16 mx-auto">
         <div
           className="flex flex-col justify-center items-center mb-5"
           //   style={{

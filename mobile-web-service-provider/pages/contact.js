@@ -5,7 +5,7 @@ import img8 from "../public/Assets/ContactUs.png";
 
 export default function ContactUs() {
   return (
-    <div className="">
+    <div className="xs:mx-7 sm:mx-auto sm:container">
       <div className="xs:mx-0 xl:mx-5 tracking-wide leading-tight lg:flex w-full p-10 mt-10 sm:mt-16 md:mt-20 mb-10 sm:mb-16 md:mb-20  border-2">
         <div className="md:pr-10 lg:w-1/2 xl:2/5 xs:w-full py-3 sm:py-6 md:py-12">
           <h1 className="lg:text-5xl sm:text-3xl xs:text-xl  pb-3 sm:pb-6 md:pb-12 cursor-pointer  ">
