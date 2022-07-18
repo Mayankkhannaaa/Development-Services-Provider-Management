@@ -46,7 +46,7 @@ export default function Layout({ children }) {
           <div className="container px-5 py-14 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"></div>
           <div className="mb-5">
             <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-              <div className="flex flex-col xs:items-center sm:items-start">
+              <div className="flex flex-col sm:items-start xs:items-center ">
                 <a
                   className="font-medium items-center md:justify-start justify-center text-gray-50 hover:text-blue-500 hover:underline"
                   onClick={() => {
