@@ -2,9 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import TeamWork3D2 from "../public/Assets/AboutUs.png";
-import img1 from "../public/Assets/HomePage.png";
-import img2 from "../public/Assets/WorkingWithUs.png";
-import img3 from "../public/Assets/Benefits.png";
 import img4 from "../public/Assets/VeezavizLogo.png";
 import img5 from "../public/Assets/KoogleLogo.jpeg";
 import img6 from "../public/Assets/ProparaLogo.png";
@@ -32,90 +29,100 @@ const About = () => {
     <section className="overflow-hidden">
       <Head>
         <title>A-ONE WEB SOLUTIONS | About</title>
-        <meta name="description" content={``} />
+        <meta
+          name="description"
+          content={`A-ONE WEB SOLUTIONS is an ambitious and motivated service
+            provider tailored to the needs of businesses of every esteemed
+            composition. We are focused on providing services that are
+            vastly accessible for everyone who tries to connect with us.
+            Serving many international clients, we have a vast experience in
+            serving all types of clients in a very reasanable and quality
+            focused mindset.`}
+        />
         <meta
           name="keywords"
           content={
-            "explore new opportunities," +
-            "new jobs," +
-            "new startups," +
-            "growth startups," +
-            "expand your startup," +
-            "founders," +
-            "become a founder," +
-            "become a co-founder," +
-            "co-founders," +
-            "ceo," +
-            "cto," +
-            "recruitment," +
-            "jobs near me," +
-            "indeed jobs," +
-            "startup accelarator," +
-            "work from home jobs," +
-            "job description," +
-            "job description template," +
-            "part time jobs near me," +
-            "startup jobs," +
-            "linkedin jobs," +
-            "Professional jobs," +
-            "High paying jobs," +
-            "explore new projects," +
-            "explore new startups," +
-            "upsc preperation," +
-            "entrepreneurship," +
-            "founders," +
-            "become a founder," +
-            "become a co-founder," +
-            "co-founders," +
-            "ceo," +
-            "cto," +
-            "startups near me," +
-            `PROPARA is a free-of-charge community platform tailored to the
-                needs of growth startups, projects, learning opportunities,
-                collaborations and more. PROPARA gives an overview of the world
-                stage community by providing visibility to startups, projects
-                and opportunities in the world. Via the platform, startups can
-                get assistance with their recruitment of talent as well as
-                connection with investors and more such valuable associations.,` +
-            `PROPARA has three main target groups; the first one being growth
-                startups based around the world, who are facing various
-                challenges related to scalability, expansion and sustainabilty.
-                These challenges can be related to recruitment, funding or other
-                insights. As a startup, you might be looking to expand your team
-                in order to build or scale, looking for funding, or being in the
-                need of best practice tools such as a pitch deck or employment
-                contract. PROPARA has gathered the solutions to those challenges
-                and more importantly made them accessible. Not only startups,
-                but you can get along with people having similar interest and
-                complete your current tasks effectively and efficiently.,` +
-            ` The second main target group is applicants who want to join a
-                  startup or a project that involves their personal interest. It
-                  is those who are already a part of the startup ecosystem,
-                  students with the dream of becoming entrepreneurs, employees
-                  in larger organisations, people looking to learn together or
-                  anyone else wanting to be part of a startup journey or a
-                  journey from ZERO to ONE.,` +
-            `The third target group is investors interested in growth
-                  startups in the world. It is those who are looking to invest
-                  in the next big unicorn e.g. venture capital funds, angels,
-                  accelerators and incubators.,
-                  PROPARA has assembled these and given them visibility towards
-                  growth startups who are looking for funding. PROPARA is
-                  completely free to use for all three groups; project
-                  owners/startups, applicants and investors.,` +
-            `Become a part of the community of most efficient, hungry and
-                success attracting people by creating an account at PROPARA.
-                Start your journey of expansion and learning and acknowledge
-                your strengths by considering sharing your new ideas with the
-                world.,` +
-            `Are you part of a growing startup, a learner, an achiever and
-                want to be part of our platform? Register your project on
-                PROPARA at https://propara.theeaglion.com/new-project,` +
-            `Startups/Project owners expand and scale by collaborating with
-                new team members who share the same ambition. To join your
-                favourite startup/project, go to the startup/project profile and
-                check for the available opportunities for which they are open
-                for collaborations.`
+            "cheap website," +
+            "website for business," +
+            "website for startups," +
+            "web services," +
+            "web development services," +
+            "cheap web application" +
+            "web development," +
+            "high quality website," +
+            "custom website," +
+            "custom website development," +
+            "website development," +
+            "new website," +
+            "website for me," +
+            "website for business," +
+            "web solutions," +
+            "cheap mobile apps," +
+            "mobile apps for business," +
+            "mobile apps for startups," +
+            "mobile app services," +
+            "mobile development services," +
+            "cheap mobile application" +
+            "mobile app development," +
+            "high quality mobile apps," +
+            "custom mobile apps," +
+            "custom mobile app development," +
+            "mobile apps development," +
+            "new mobile apps," +
+            "mobile apps for me," +
+            "mobile apps for business," +
+            "mobile app solutions," +
+            "best web building sites," +
+            "google new website," +
+            "make a new website," +
+            "build a new website," +
+            "i need a website," +
+            "i need a website for my business," +
+            "i need an ecommerce website," +
+            "i need a business website," +
+            "need a website," +
+            "build custom website," +
+            "personalized website," +
+            "custom web development services," +
+            "custom web design services," +
+            "customize website," +
+            "custom web design company," +
+            "custom website design company," +
+            "affordable custom websites," +
+            "custom ecommerce website," +
+            "custom website design cost," +
+            "affordable custom website design," +
+            "cheap website builders," +
+            "affordable web design," +
+            "cheap website design," +
+            "affordable website design," +
+            "cheap website makers," +
+            "cheap web design," +
+            "affordable website," +
+            "cheap website creator," +
+            "affordable web design services," +
+            "affordable web design company," +
+            "affordable website design near me," +
+            "cheap ecommerce website," +
+            "affordable websites for small business," +
+            "affordable website designer," +
+            "affordable custom websites," +
+            "affordable website builders," +
+            "best cheap website builders," +
+            "affordable website design packages," +
+            "a one website services," +
+            "a one website solutions," +
+            "website management," +
+            "new cheap website," +
+            "low cost website design," +
+            `A-ONE WEB SOLUTIONS is an ambitious and motivated service
+            provider tailored to the needs of businesses of every esteemed
+            composition. We are focused on providing services that are
+            vastly accessible for everyone who tries to connect with us.
+            Serving many international clients, we have a vast experience in
+            serving all types of clients in a very reasanable and quality
+            focused mindset.,` +
+            "International Clients"
           }
         />
         <meta name="author" content={"PROPARA - Professional Paradise"} />
@@ -143,18 +150,20 @@ const About = () => {
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl font-medium  mb-2">
-                PROPARA - Professional Paradise
+                A-ONE WEB SOLUTIONS
               </h2>
               <p className="leading-relaxed">
-                Something is an ambitious and motivated service provider
-                tailored to the needs of businesses of every esteemed
-                composition. Something is focused on providing services that are
+                A-ONE WEB SOLUTIONS is an ambitious and motivated service
+                provider tailored to the needs of businesses of every esteemed
+                composition. We are focused on providing services that are
                 vastly accessible for everyone who tries to connect with us.
-                Serving many international clients, Something has a vast
-                experience in serving all types of clients in a very reasanable
-                and quality focused mindset.
+                Serving many international clients, we have a vast experience in
+                serving all types of clients in a very reasanable and quality
+                focused mindset.
                 <ul className="list-disc mt-5">
-                  <p className="mb-3">Something provides services like :</p>
+                  <p className="mb-3">
+                    A-ONE WEB SOLUTIONS provides services like :
+                  </p>
                   <li>Web Application Development</li>
                   <li>Mobile Application Development</li>
                   <li>Mobile Application Improvement</li>
@@ -296,8 +305,9 @@ const About = () => {
                 Who is behind the team?
               </h2>
               <p className="leading-relaxed">
-                Something is based on a strategic partnership between members of
-                the tea of developers. It is majorly run by the founder{" "}
+                A-ONE WEB SOLUTIONS is based on a strategic partnership between
+                members of the tea of developers. It is majorly run by the
+                founder{" "}
                 <a
                   className="underline text-blue-600 "
                   href="https://www.linkedin.com/in/mayankkhannaaa"
