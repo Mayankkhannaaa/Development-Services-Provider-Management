@@ -39,9 +39,7 @@ export default function Home() {
         <title>A-ONE WEB SOLUTIONS</title>
         <meta
           name="description"
-          content={`Get your website and mobile application built at cheap and
-          affordable prices by experienced and quality developers
-          serving clients all over the globe.`}
+          content={`Get your website and mobile application built at cheap and affordable prices by experienced and quality developers serving clients all over the globe.`}
         />
         <meta
           name="keywords"
@@ -129,7 +127,7 @@ export default function Home() {
             "International Clients"
           }
         />
-        <meta name="author" content={"PROPARA - Professional Paradise"} />
+        <meta name="author" content={"Mayank Khanna"} />
       </Head>
       <div
         className="xs:right-2 sm:right-20 cursor-pointer fixed z-50 bg-blue-400 rounded-full drop-shadow-lg flex justify-center items-center text-white"

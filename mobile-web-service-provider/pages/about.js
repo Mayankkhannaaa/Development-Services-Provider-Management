@@ -31,13 +31,7 @@ const About = () => {
         <title>A-ONE WEB SOLUTIONS | About</title>
         <meta
           name="description"
-          content={`A-ONE WEB SOLUTIONS is an ambitious and motivated service
-            provider tailored to the needs of businesses of every esteemed
-            composition. We are focused on providing services that are
-            vastly accessible for everyone who tries to connect with us.
-            Serving many international clients, we have a vast experience in
-            serving all types of clients in a very reasanable and quality
-            focused mindset.`}
+          content={`A-ONE WEB SOLUTIONS is an ambitious and motivated service provider tailored to the needs of businesses of every esteemed composition. We are focused on providing services that are vastly accessible for everyone who tries to connect with us. Serving many international clients, we have a vast experience in serving all types of clients in a very reasanable and quality focused mindset.`}
         />
         <meta
           name="keywords"
@@ -125,7 +119,7 @@ const About = () => {
             "International Clients"
           }
         />
-        <meta name="author" content={"PROPARA - Professional Paradise"} />
+        <meta name="author" content={"Mayank Khanna"} />
       </Head>
       <div className="container px-5 pt-5 pb-16 mx-auto">
         <div
