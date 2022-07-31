@@ -6,6 +6,23 @@ class MyDocument extends Document {
       <Html className="scroll-smooth">
         <Head>
           <link rel="icon" href="/favicon.ico" />
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-775ZLZW0P7`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-775ZLZW0P7', {
+                      page_path: window.location.pathname,
+                    });
+                  `,
+            }}
+          />
           {/* <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-FGC2M95D0F`}

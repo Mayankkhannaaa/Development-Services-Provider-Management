@@ -123,7 +123,7 @@ export default function ContactUs() {
                 onClick={(e) => {
                   e.preventDefault();
                   window.location.href =
-                    "mailto:mayankkhanna015@outlook.com?subject=Customised Enquiry Discussion!";
+                    "mailto:a-one.solutions@outlook.com?subject=Customised Enquiry Discussion!";
                 }}
                 rel="noopener noreferrer"
               >
